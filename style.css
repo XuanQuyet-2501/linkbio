@@ -1,0 +1,286 @@
+body {
+    background-image: url(https://i.pinimg.com/736x/e1/96/df/e196df482a0b0d202c70ae5c7164dcc5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.info .avata img {
+    height: 120px;
+    width: 90px;
+    width: auto;
+    border-radius: 50%;
+    border: solid palevioletred;
+}
+
+.info .avata img:hover { 
+    width: auto;
+    border-radius: 50%;
+    border: solid rgb(143, 190, 228);
+}
+
+.avata {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.topbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.topbar .home a {
+    text-decoration: none;
+    background-color: #e6ccf1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    margin-left: 20px;
+    color: black;
+    position: relative;
+    transition: background-color 1s ease-in-out, color 0.5s ease-in-out;
+}
+
+.topbar .home a:hover {
+    top: 5px;
+    color: aquamarine;
+    background-color: #c8b3d1;
+}
+
+.topbar .getscript a {
+    text-decoration: none;
+    background-color: #e6ccf1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    margin-left: 20px;
+    color: black;
+    position: relative;
+    transition: background-color 1s ease-in-out, color 0.5s ease-in-out;
+}
+
+.topbar .getscript a:hover {
+    top: 5px;
+    color: aquamarine;
+    background-color: #c8b3d1;
+}
+
+h1 {
+    font-family: abc;
+    margin-top: 40px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+}
+
+.name h1 {
+    transition: color 2s ease-in-out;
+    color: black;
+}
+
+.name h1:hover {
+    color: cyan;
+    animation: mmb 5s infinite;
+}
+
+#time {
+    font-family: abc;
+    font-size: 50px;
+    color: black;
+    animation: color 5s infinite;
+    border: 2px dashed rgb(231, 157, 157);
+    border-radius: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@keyframes color {
+    0% {
+        color: rgb(187, 109, 109);
+    }
+
+    25% {
+        color: #aab667;
+    }
+
+    50% {
+        color: #63a790;
+    }
+
+    75% {
+        color: #8174b1;
+    }
+
+    100% {
+        color: #b17a9a;
+    }
+}
+
+@keyframes mmb {
+    0% {
+        color: #c9a9d6;
+    }
+
+    25% {
+        color: rgb(218, 161, 161);
+    }
+
+    50% {
+        color: burlywood;
+    }
+
+    75% {
+        color: darkkhaki;
+    }
+
+    100% {
+        color: darkseagreen;
+    }
+}
+
+P {
+    font-family: abc2;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.noname {
+    display: flex;
+    justify-content: center;
+}
+
+.gach {
+    height: 5px;
+    width: 700px;
+    background-color: #c9a9d6;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.fbbtn img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.box a {
+
+    position: relative;
+    transition: bottom 2s ease-in-out;
+}
+
+.box a:hover {
+    bottom: 2px;
+}
+
+.ghbtn img {
+    width: 55px;
+    margin-left: 10px;
+    position: relative;
+    top: 5px;
+}
+
+.abc1 {
+
+    margin-top: -30px;
+}
+
+.abc1>h4 {
+    display: flex;
+    justify-content: center;
+    font-family: abc;
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: abc;
+    src: url(./all/1FTV-Nexa-Heavy.otf);
+}
+
+@font-face {
+    font-family: abc2;
+    src: url(./all/1FTV-Freshwost.otf);
+}
+
+body>p {
+    font-size: 12px;
+}
+
+.gioithieu {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.p {
+    position: relative;
+    top: -5px;
+}
+
+.abc {
+    color: rgb(255, 0, 128);
+}
+
+@keyframes bodersex {
+    0%{
+        border: dashed rgb(255, 165, 165);
+    }
+    25%{
+        border: dashed rgb(125, 255, 168);
+    }
+    50%{
+        border: dashed rgb(110, 250, 255);
+    }
+    75%{
+        border: dashed rgb(255, 0, 255);
+    }
+    100%{
+        border: dashed rgb(255, 136, 136);
+    }
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+#play {
+    scale: 1;
+    transition: scale 0.3s ease-in-out;
+}
+
+#play:hover{
+    scale: 1.2;
+}
+
+.dumasucvatlon {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
