@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
     setInterval(updateClock, 1000);
     updateClock();
 
-    const mp3 = new Audio('./all/chill.mp3');
+    const mp3 = new Audio('./all/audio.mp3');
     mp3.loop = true;
     let isPlaying = false;
 
@@ -61,5 +61,23 @@ document.addEventListener('DOMContentLoaded', function () {
                 image.setAttribute('src', musicimg);
             });        
         }
+    });
+    playbtn.addEventListener('click', function () {
+        playbtn.classList.remove('functionclick');
+        void playbtn.offsetWidth;
+        playbtn.classList.add('functionclick');
+    });
+
+    const btn_facebook = document.getElementById('facebook');
+    btn_facebook.addEventListener('click', function () {
+        btn_facebook.classList.remove('functionclick');
+        void playbtn.offsetWidth;
+        btn_facebook.classList.add('functionclick');
+    });
+    const btn_github = document.getElementById('github');
+    btn_github.addEventListener('click', function () {
+        btn_github.classList.remove('functionclick');
+        void btn_github.offsetWidth;
+        btn_github.classList.add('functionclick');
     });
 });
